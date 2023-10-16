@@ -13,8 +13,8 @@ export default function Products() {
           </tr>
         </thead>
         <tbody>
-          {products?.map((item) => (
-            <tr>
+          {products?.map((item, index) => (
+            <tr key={index}>
               <td>{item.id}</td>
               <td>{item.name}</td>
               <td>{`${item?.unitPrice} TL`}</td>

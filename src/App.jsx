@@ -1,9 +1,11 @@
-import Products from "./objectArray-hw1/Products";
+import ArchitectTempateLayout from "./architectTemplate-hw/ArchitectTemplateLayout";
+import Products from "./objectArray-hw/Products";
 
 function App() {
   return (
     <>
-     {/* <Products /> */}
+      {/* <Products /> */}
+      <ArchitectTempateLayout />
     </>
   );
 }
