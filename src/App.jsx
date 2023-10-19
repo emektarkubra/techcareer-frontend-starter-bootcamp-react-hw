@@ -1,7 +1,8 @@
 import ArchitectTempateLayout from "./architectTemplate-hw/ArchitectTemplateLayout";
 import Products from "./objectArray-hw/Products";
 import BoxSize from "./state-active-hw/BoxSize";
-import StateApi from "./state-hw/StateApi";
+import SuppliersApi from "./state-suppliers-hw/SuppliersApi";
+import OrdersApi from "./state-orders-hw/OrdersApi";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       {/* <Products /> */}
       {/* <ArchitectTempateLayout /> */}
       {/* <BoxSize /> */}
-      <StateApi />
+      {/* <SuppliersApi /> */}
+      <OrdersApi />
     </>
   );
 }
